@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Great+Vibes&display=swap');
+
+:root {
+    --primary-color: rgb(230, 83, 60);
+    --secondary-color: rgb(255, 255, 255);
+    --third-color: rgba(255, 255, 255, 0.5);
+    --fourth-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    margin: 0px;
+    font-family: Inter;
+    background-color: black;
+}
+
+#header {
+    /* max-width: 1440px; */
+    margin: 0px auto;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+.nav-bar {
+    padding: 0px 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options > ul {
+    padding: 4px 20px 4px 4px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    font-family: Inter;
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+#band-name {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+#home {
+    background-color: var(--primary-color);
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+
+.hero-section {
+    display: flex;
+    margin: 10px 210px 0px 190px;
+    gap: 80px;
+    align-items: center;
+    font-family: Inter;
+}
+
+h1 {
+    color: var(--secondary-color);
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+p {
+    color: var(--fourth-color);
+    font-size: 1rem;
+}
+
+.hero-section {
+    display: flex;
+    gap: 160px;
+    margin: 0px 214px 0px 190px;
+}
+
+#shape {
+    font-family: "Great Vibes", cursive;
+    font-size: 4rem;
+}
+
+#circle {
+    background-color: var(--primary-color);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.critical-image {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* border: 2px solid tomato */
+}
+
+
+#three-hundred-plus {
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 420px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 5px 10px;
+    width: 160px;
+}
+
+
+
+
+#five-hundred-plus {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 142px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 20px;
+    width: 170px;
+    
+}
+
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headings {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.hero {
+    background-color: var(--primary-color);
+    border-radius: 42px;
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 16px 40px;
+}
+
+.hero + .download {
+    border:1px solid rgb(255, 255, 255);
+    background-color: black;
+}
